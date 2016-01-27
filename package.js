@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'steinitz:react-es6-component',
-	version: '0.1.0',
+	version: '0.1.1',
 	// Brief, one-line summary of the package.
 	summary: 'Allow the use of getMeteorData in ES6 React classes similar to React.createClass class',
 	// URL to the Git repository containing the source code for this package.
