@@ -1,4 +1,4 @@
-SteinitzReactES6Component = class SteinitzReactES6Component extends React.Component
+React.MeteorComponent = class ReactMeteorComponent extends React.Component
 {
 	// SJS extra stuff
 	getMeteorData () 	// dummy to prevent errors if not re-defined in subclass

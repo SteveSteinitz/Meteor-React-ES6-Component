@@ -9,9 +9,9 @@ If instead, you create your react component with ES6 syntax:
 
     MyClass = class MyClass extends React.component
     
- you get no support for a getMeteorData method (nor for any mixins).  Further, with React.createClass most of your methods are automatically bound (as expected) such that 'this' is the component itself, as expected.  This package adds those two features to ES6 React Components.  Install the package, then declare your React component like so:
+ you get no support for a getMeteorData method (nor for any mixins).  Further, with React.createClass most of your methods are automatically bound (as expected) such that 'this' is the component itself, as expected.  This package adds those two features to ES6 React Components.  Install the package, then extend your React component from React.MeteorComponent like so:
 
-    MyClass = class MyClass extends SteinitzReactES6Component
+    MyClass = class MyClass extends React.MeteorComponent
 
 Then you can write a getMeteorData method something like the following:
 

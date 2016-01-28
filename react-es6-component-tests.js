@@ -4,7 +4,7 @@ Tinytest.add (
 	{
 		if (Meteor.server)
 		{}
-		MyReactTestComponent = class MyReactTestComponent extends SteinitzReactES6Component
+		MyReactTestComponent = class MyReactTestComponent extends React.MeteorComponent
 		{
 			getMeteorData ()
 			{
