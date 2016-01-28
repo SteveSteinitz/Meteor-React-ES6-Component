@@ -15,9 +15,9 @@ Notable changes to this project will be documented here.
 - Added dependency on React to tests
 
 ## [0.1.1] - 26 Jan 2016
-
 ### Changed
 - Shortened summary
+
 ### Added
 - Added Travis
 
